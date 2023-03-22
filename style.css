@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'seascaperegular-alt';
+    src: url('font1/seascape-regular-alt-webfont.woff2') format('woff2'),
+         url('font1/seascape-regular-alt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'herdrockregular';
+    src: url('font1/font2/herdrock-webfont.woff2') format('woff2'),
+         url('font1/font2/herdrock-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    text-decoration: none;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    
+}
+.milieu{
+    text-align: center;
+    margin: 50px 12%;
+    
+}
+.nav .milieu ul a{
+    letter-spacing: 2px;
+    margin: 10px 30px;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    
+}
+.nav .milieu ul{
+    display: flex;
+}
+.nav .milieu .roule {
+    display: block;
+}
+.droite a{
+    text-align: end;
+    margin: 50px 20px;
+    
+}
+.droite{
+    margin-top:10px;
+    padding-bottom: -70px;
+    /* backdrop-filter: blur(20px); */
+    border-radius: 5px;
+}
+.compte {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 17px;
+    font-family: 'seascaperegular-alt';
+    color: white;
+}
+.gauche img{
+    width:100px;
+    margin: 0 20px;
+    border-radius:50%;
+    opacity: .7;
+}
+.gauche h1{
+    text-align: center;
+    font-size: 30px;
+}
+.gauche1{
+    color: rgb(255, 255, 255);
+    font-family: 'herdrockregular';
+    font-size: 26px;
+}
+header{
+    background-image: url("image/jul.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+/* .action{
+    display: inline;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.action::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%) scale(0);
+    height: 2px;
+    width: 100%;
+    transition: transform .4s ease;
+    background: aqua;
+    transform-origin: left;
+}
+.action:hover::before{
+    transform: translate(-50%) scale(1);
+}
+.action{
+    display: inline;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.action::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%) scale(0);
+    height: 2px;
+    width: 100%;
+    transition: transform .4s ease;
+    background: aqua;
+    transform-origin: right;
+}
+.action:hover::after{
+    transform: translate(-50%) scale(1);
+} */
+
+h1{
+    color: aqua;
+}
+.droite a:hover{
+    color: aqua;
+} 
+body{
+    background-image: url("image/jul.jpg");
+    background-size: cover;
+}
+.gauche img{
+    animation: pulse 1.3s infinite;
+    box-shadow: 0 0 0 0 rgb(206, 206, 206);
+}
+@keyframes pulse {
+    to{
+        box-shadow: 0 0 0 10px rgba(255, 68, 0, 0.39);
+    }
+    
+}
+.h1{
+    color: black;
+    text-align: center;
+    font-size:65px ;
+    margin-top: 20px;
+    text-shadow: 3px 0 5px white;
+}
+.h12{
+    color: rgb(34, 4, 4);
+    text-align: center;
+    font-size:65px ;
+    margin-top: 20px;
+    text-shadow: 3px 0 5px white;
+    font-size: 20px;
+}
+.para1{
+    text-align: center;
+    color: white;
+}
+.contenaire{
+    color: white;
+    display: flex;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 70px;
+}
+.contenaire img{
+    border-radius: 20%;
+    width: 120px;
+}
+.appli2,
+.appli{
+    margin-left: 30px;
+    background:#11101b;
+    padding: 10px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+
+}
+.appli3{
+    padding-top: 20px;
+    padding-left: -3px;
+    padding-bottom: auto;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    animation: jul 1.3s infinite;
+    background: cyan;
+    color:black;
+    border-radius: 5px;
+    border: 1px solid cyan;
+    
+}
+button:hover{
+    box-shadow: 0 0 11px rgba(255, 255, 255, 0.288);
+     
+}
+.appli a,
+.appli2 a,
+.appli3 a{
+    color: yellow;
+    
+}
+.lili{
+    margin-left: 20px;
+}
+.appli3{
+    background: #11101b;
+    margin-left: 20px;
+    padding: 10px;
+    padding-left: -5px;
+    border-radius: 10px;
+}
+main{
+    background: rgb(0, 0, 0);
+    margin-top: 80px;
+    padding-bottom: 250px;
+    
+}
+main h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'seascaperegular-alt';
+    font-size: 60px;
+}
+main h1 span{
+    color: deeppink;
+}
+.action1{
+    background: orangered;
+    border: 1px solid cyan;
+    border-radius:40px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.action:hover{
+    background: orangered;
+    border: 1px solid cyan;
+    border-radius:40px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.decrire p{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.decrire1{
+    margin-top: 30px;
+    display: flex;
+
+}
+h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+footer{
+    background: rgba(255, 255, 255, 0.488);
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+}
+.text{
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 90px;
+}
+.text2 p{
+    margin-top: 90px;
+    margin-left: 220px;
+    display: flex;
+}
+.text h3{
+    color: white;
+    font-size: 29px;
+    letter-spacing: 9px;
+}
+.text h3 .lop{
+    color: black;
+}
+.icone i{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 40px;
+    margin-top: 39px;
+}
+.icone{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.488) ;
+}
+.icone i:hover{
+    color: aqua;
+}
+.icone h1{
+    text-align: end;
+    color: red;
+    cursor: pointer;
+    
+}
+.icone h1:hover{
+    color: white;
+    opacity: .6;
+}
